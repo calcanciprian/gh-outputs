@@ -14,7 +14,7 @@ jobs:
       - name: Lint code
         run: nmp run lint
       - name: Test code
-        run: nmp run test
+        run: npm run test
   build:
     needs: test
     runs-on: ubuntu-latest
